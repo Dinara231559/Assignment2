@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Iterator;
+
 public class MyLinkedList<T> implements MyList<T>{
     private Node<T> head;
     private int size;
@@ -25,8 +27,23 @@ public class MyLinkedList<T> implements MyList<T>{
         size++;
     }
 
+    @Override
+    public void addElement(int index, T data) {
+
+    }
+
     public int getSize() {
         return size;
+    }
+
+    @Override
+    public void clear() {
+
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return null;
     }
 
     public T getElement(int index) {

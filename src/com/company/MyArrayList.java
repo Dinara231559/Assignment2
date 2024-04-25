@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Iterator;
+
 public class MyArrayList <T> implements MyList<T> {
     private T[] arr;
     private int size;
@@ -14,6 +16,11 @@ public class MyArrayList <T> implements MyList<T> {
             increaseBuffer();
         }
         arr[size++] = element;
+    }
+
+    @Override
+    public void addElement(int index, T data) {
+
     }
 
     public void addElement(T element, int index){
@@ -53,5 +60,10 @@ public class MyArrayList <T> implements MyList<T> {
     public void clear(){
         arr = (T[]) new Object[5];
         size = 0;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return null;
     }
 }
