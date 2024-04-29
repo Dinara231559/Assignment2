@@ -1,15 +1,19 @@
 package com.company;
-
-import java.util.Iterator;
-
-public interface MyList<T> extends Iterable<T> {
-    void addElement(T data);
-    void addElement(int index, T data);
-    T getElement(int index);
-    void removeElement(int index);
-    int getSize();
+public interface MyList<E> extends Iterable<E> {
+    void add(E element);
+    void add(E element, int index);
+    void addFirst(E element);
+    void addLast(E element);
+    E getElem(int index);
+    E getElemFirst();
+    E getElemLast();
+    void remove(int index);
+    void removeFirst();
+    void removeLast();
+    int indexOf(Object object);
+    int lastIndexOf(Object object);
+    boolean exists(Object object);
     void clear();
-
-    @Override
-    Iterator<T> iterator();
+    int size();
 }
+

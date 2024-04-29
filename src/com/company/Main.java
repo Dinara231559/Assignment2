@@ -1,18 +1,25 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
-        MyLinkedList<Double> myLinkedList = new MyLinkedList<>();
+        MyLinkedList<Integer> myLinkedList = new MyLinkedList<>();
 
-        myLinkedList.addElement(1.0);
-        myLinkedList.addElement(2.5);
-        myLinkedList.addElement(2.8);
-        myLinkedList.addElement(4.7);
-        myLinkedList.addElement(5.0);
+        myLinkedList.add(1);
+        myLinkedList.add(2);
+        myLinkedList.add(3);
+        myLinkedList.add(4);
+        myLinkedList.add(5);
 
-        System.out.println("Element at index 3: " + myLinkedList.getElement(3));
-        myLinkedList.removeElement(3);
-        System.out.println("Element at index 3 after removal: " + myLinkedList.getElement(3));
+        System.out.println("Value of index 3: " + myLinkedList.getElem(3));
+        System.out.println("Size of an list: " + myLinkedList.size());
+        System.out.println("Value of index 0 before remove: " + myLinkedList.getElem(0));
+        myLinkedList.remove(0);
+        System.out.println("Value of index 0 after remove: " + myLinkedList.getElem(0));
+        System.out.println("Size of an list: " + myLinkedList.size());
+        System.out.println("Value of index 2 before remove: " + myLinkedList.getElem(2));
+        myLinkedList.remove(2);
+        System.out.println("Value of index 2 after remove: " + myLinkedList.getElem(2));
+        System.out.println("Size of an list: " + myLinkedList.size());
+
     }
 }

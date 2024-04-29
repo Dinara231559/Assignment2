@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb1e5dd-c00e-4b90-85e3-423b43f97cb5" name="Changes" comment="MyLinkedlist">
+    <list default="true" id="8cb1e5dd-c00e-4b90-85e3-423b43f97cb5" name="Changes" comment="node">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,31 +27,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2fbMlOWCOYSdNUOe7tvkvHk0rkM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.company" />
@@ -63,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714065481609</updated>
-      <workItem from="1714065482778" duration="6783000" />
+      <workItem from="1714065482778" duration="7047000" />
+      <workItem from="1714342824325" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="Main">
       <option name="closed" value="true" />
@@ -89,7 +92,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714071987722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Array list">
+      <option name="closed" value="true" />
+      <created>1714073164947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714073164947</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MyList">
+      <option name="closed" value="true" />
+      <created>1714073198948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714073198948</updated>
+    </task>
+    <task id="LOCAL-00006" summary="node">
+      <option name="closed" value="true" />
+      <created>1714073216786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714073216786</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +126,9 @@
     <MESSAGE value="Main" />
     <MESSAGE value="MyArraylist" />
     <MESSAGE value="MyLinkedlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyLinkedlist" />
+    <MESSAGE value="Array list" />
+    <MESSAGE value="MyList" />
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
 </project>
